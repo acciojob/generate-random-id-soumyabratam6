@@ -1,6 +1,6 @@
 function makeid(l) {
   // write your code here
-	const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
   let result = '';
   const charactersLength = characters.length;
   for (let i = 0; i < l; i++) {
